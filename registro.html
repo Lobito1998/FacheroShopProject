@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> REGISTRO </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content=" 
+	width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/Normalize.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@1,300;1,400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/Estilos_Registro.css">
+</head>
+<body>
+	<header>
+		<div class="logo">
+			<a href="index.html">
+				<img src="img/Logotipo.png" alt="Logotipo"/>
+			</a>
+		</div>
+		<!-- Navegación -->
+		<div class="nave">
+			<nav class="navegacion contenedor">
+				<a class="nav__activo--1" href="index.html"> Inicio </a> &nbsp;
+				<a class="nav__activo--2" href="nosotros.html"> Nosotros </a> &nbsp;
+				<a class="nav__activo--3" href="tiendas.html"> Tiendas </a> &nbsp;
+				<a class="nav__activo--4" href="productos.html"> Productos </a> &nbsp;
+				<a class="nav__activo--5" href="login.html"> Login </a> &nbsp;
+			</nav>
+		</div>
+	</header>
+
+	<main class="contenedor2 sombra">
+		<section>
+			<h2>registro</h2>
+			<form><!-- Formulario1 -->
+				<fieldset >
+					<legend> Completa los campos</legend>
+					
+					<!-- Campos -->
+					<div class="campos">
+
+						<!-- Campo Nombres -->
+						<div>
+							<label>Nombres: </label>
+							<input type="text" title="Nombres" placeholder="Nombre Completo" required/>
+						</div>
+
+						<!-- Campo Apellidos -->
+						<div>
+							<label>Apellidos: </label>
+							<input type="text" title="Apellidos" placeholder="Apellido Completo" required/>
+						</div>
+
+						<!-- Campo Edad -->
+						<div>
+							<label> Edad: </label> 
+							<input type="number" min="18" title="Edad" placeholder="Mínimo 18 años" required />
+						</div>
+
+						<!-- Campo Contacto-->
+						<div>
+							<label>Contacto: </label>
+							<input type="tel" title="Contactos" placeholder="Número de contacto" required/>
+						</div>
+
+						<!-- Campo Género -->
+						<div>
+							<label> Género: </label>
+							<div class="masculino">
+								<input type="radio" name="g" title="Genero_masculino" /> Masculino
+							</div>
+
+							<div class="femenino">
+								<input type="radio" name="g" title="Genero_femenino"/> Femenino
+							</div>
+						</div>
+
+						<!-- Campo Departamento -->
+						<div>
+						<label> Departamento: </label>
+							<select>
+								<option> Amazonas </option> 
+								<option> Ancash </option> 
+								<option> Apurímac </option> 
+								<option> Arequipa</option>
+								<option> Ayacucho </option>
+								<option> Cajamarca </option>
+								<option> Cuzco </option>
+								<option> Huancavelica </option>
+								<option> Huánuco </option>
+								<option> Ica </option>
+								<option> Junín </option>
+								<option> La Libertad </option>
+								<option> Lambayeque </option>
+								<option> Lima </option>
+								<option> Loreto </option>
+								<option> Madre de Dios </option>
+								<option> Moquegua </option>
+								<option> Pasco </option>
+								<option> Piura </option>
+								<option> Puno </option>
+								<option> San Martín </option>
+								<option> Tacna </option>
+								<option> Tumbes </option>
+								<option> Ucayali </option> 
+							</select>
+						</div>
+
+						<!-- Campo Prenda -->
+						<div >
+							<label> Prenda de ropa favorita: </label><br/>
+							<div class="prenda">
+								<input type="checkbox" title="prendas" /> Pantalón <br/>
+								<input type="checkbox" title="prendas" /> Polo <br/>
+								<input type="checkbox" title="prendas" /> Polera <br/>
+								<input type="checkbox" title="prendas" /> Zapatos <br/>
+								<input type="checkbox" title="prendas" /> Zapatillas <br/>
+								<input type="checkbox" title="prendas" /> Gorras <br/>
+								<input type="checkbox" title="prendas" /> Otros <br/>
+							</div>
+						</div>
+
+						<!-- Campo Correo -->
+						<div class="correo">
+							<label>Correo: </label>
+							<input type="email" title="Email" placeholder="ejemplo123@gmail.com" required/>
+						</div>
+
+						<!-- Campo Contraseña -->
+						<div class="contraseña">
+							<label>Contraseña: </label>
+							<input type="password" title="password" placeholder="Escribe tu contraseña" required>
+						</div>
+
+						<!-- Campo Comentario -->
+						<div class="comentario">
+							<label>Comentario: </label>
+							<textarea title="Comentario" placeholder="Escribe tu comentario"></textarea>
+						</div>
+
+						<!-- Campo Boton -->
+						<div class="boton">
+							<input type="submit" title="Boton" value="Enviar"/>
+							<div class="regresar">
+								<a href="login.html"> Inicio Sesión </a>
+							</div>
+						</div>
+					</div><!-- Fin Campos -->
+				</fieldset>
+			</form><!-- Fin Formulario1 -->
+		</section>
+	</main>
+
+	<footer><br/><hr>
+		<section class="footer">
+
+			<div class="contactanos_img">
+				<img src="img/contactanos.gif" alt="Imagen_Contactanos">
+			</div>
+
+			<div class="redes_img">
+				<img src="img/redes.png" alt="Imagen_Redes_Sociales">
+			</div>
+
+			<div class="contactanos">
+				<p ><strong> Dirección: </strong> Av. Los Prófugos de la Justicia 666</p>
+				<p ><strong>Email: </strong> FacheritoShop@gmail.com </p>
+			    <p ><strong>Número: </strong> 999-000-999 </p>
+		    </div>
+
+		    <div class="reservados"><hr>
+	        	<p>Todos los derechos reservados-Team 8</p>
+	    	</div>
+	    </section>
+	</footer>
+	
+</body>
+</html>
